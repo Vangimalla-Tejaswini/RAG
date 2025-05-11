@@ -1,0 +1,34 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+*.env
+
+# Langchain vector store or Chroma/FAISS folders
+vector_store/
+chroma_db/
+faiss_index/
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Streamlit specific
+.streamlit/secrets.toml

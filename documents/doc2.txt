@@ -1,0 +1,3 @@
+NovaCare is an AI-powered virtual assistant that supports medical professionals.
+It can answer patient queries, suggest treatment protocols, and help with appointment scheduling.
+NovaCare is compliant with HIPAA and integrates with most EHR systems.

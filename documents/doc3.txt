@@ -1,0 +1,8 @@
+Q: What industries does TechNova serve?
+A: Primarily healthcare, with growing interest in finance and education.
+
+Q: Is NovaCare customizable?
+A: Yes, NovaCare can be tailored to specific clinic workflows and branding.
+
+Q: What languages does NovaCare support?
+A: English, Spanish, and French, with more languages under development.

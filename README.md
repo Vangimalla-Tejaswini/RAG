@@ -20,3 +20,6 @@ pip install -r requirements.txt
 2. **Set up your Hugging Face API key**: Add your Hugging Face API key to the `.env` file.
 3. **Run the app**:
 streamlit run app.py
+
+## 🚀 Live Demo
+👉 [Click here to try the app](https://mzj2ckdiderc9svllewvfj.streamlit.app/)

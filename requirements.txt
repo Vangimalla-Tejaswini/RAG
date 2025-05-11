@@ -3,4 +3,5 @@ streamlit
 langchain
 faiss-cpu
 sentence-transformers
-pdfminer.six
+pypdf
+

@@ -1,23 +1,22 @@
 # RAG-Powered Multi-Agent Q&A Assistant
 
+
 ## Overview
-This is a simple knowledge assistant that uses a Retrieval-Augmented Generation (RAG) pipeline with agentic logic to answer user queries from a small collection of documents.
+This project implements a **RAG-powered Multi-Agent Q&A Assistant** that retrieves relevant information from a set of documents and generates answers using **Hugging Face models**. The project uses FAISS for efficient document retrieval and a simple agent workflow to answer various queries.
 
 ## Features
-- RAG pipeline with document chunking and vector search (FAISS)
-- OpenAI LLM integration for generating answers
-- Agent logic for keyword-based query routing
-- Streamlit UI for interaction and visualization
+- **RAG Pipeline**: Retrieves relevant document chunks based on user queries.
+- **LLM Integration**: Generates answers using Hugging Face models.
+- **Agent Logic**: Routes queries based on keywords like "define", "calculate", etc.
 
-## Setup Instructions
-```bash
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+## Requirements
+Install the dependencies with the following command:
+
 pip install -r requirements.txt
-streamlit run app.py
-```
 
-## Files
-- `app.py`: Streamlit interface
-- `utils.py`: Core logic for ingestion, vector search, and agent
-- `docs/`: Folder containing input `.txt` documents
+## Usage
+1. **Prepare your documents**: Add your document text to the `documents/your_documents.txt` file.
+2. **Set up your Hugging Face API key**: Add your Hugging Face API key to the `.env` file.
+3. **Run the app**:
+streamlit run app.py
